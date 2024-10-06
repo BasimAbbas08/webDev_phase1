@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 
+
 function SearchBar() {
   const [location, setLocation] = useState('');
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import './Navbar.css';
+import './NavBar.css'; // Ensure this matches the correct CSS filename
 
-function Navbar() {
+
+function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">Airbnb</div>
@@ -18,4 +19,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;

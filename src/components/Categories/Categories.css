@@ -1,0 +1,22 @@
+/* Categories.css */
+.categories {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .categories button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .categories button.active {
+    background-color: #FF5A5F;
+    color: white;
+    border-color: #FF5A5F;
+  }
+  

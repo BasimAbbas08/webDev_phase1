@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
-import SearchBar from './components/SearchBar';
-import Categories from './components/Categories';
-import Listings from './components/Listings';
-import Footer from './components/Footer';
+import NavBar from './components/NavBar/NavBar.js';
+import SearchBar from './components/SearchBar/SearchBar.js';
+import Categories from './components/Categories/Categories.js';
+import Listings from './components/Listings/Listings.js';
+import Footer from './components/Footer/Footer.js';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <SearchBar />
       <Categories />
       <Listings />
@@ -20,8 +19,6 @@ function App() {
 }
 
 export default App;
-
-
 // function App() {
 //   return (
 //     <div className="App">
