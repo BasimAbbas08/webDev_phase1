@@ -7,24 +7,26 @@
   color: white;
 }
 
-.navbar-logo {
+.logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.navbar-links {
+.nav-links {
   display: flex;
   gap: 1rem;
 }
-
-.navbar-links a {
+.nav-links li{
+ list-style: none;
+}
+.nav-links a {
   color: white;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-.navbar-links a:hover {
+.nav-links a:hover {
   color: #ffc107;
 }
 
