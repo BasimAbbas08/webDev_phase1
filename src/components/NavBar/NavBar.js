@@ -11,10 +11,11 @@ function NavBar() {
         <li>Experiences</li>
         <li>Online Experiences</li>
       </ul>
-      <div className="user-menu">
-        <button>Login</button>
-        <button>Signup</button>
-      </div>
+      <div className="navbar-buttons">
+  <button className="btn btn-secondary">Log in</button>
+  <button className="btn btn-secondary">Sign up</button>
+</div>
+
     </nav>
   );
 }

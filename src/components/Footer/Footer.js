@@ -16,7 +16,7 @@ function Footer() {
         <a href="#">Instagram</a>
         <a href="#">Twitter</a>
       </div>
-      <p>&copy; 2024 Airbnb Clone. All rights reserved.</p>
+      <p>&copy; 2030 Airbnb. All rights reserved.</p>
     </footer>
   );
 }

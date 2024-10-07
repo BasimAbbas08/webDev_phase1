@@ -1,24 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import './Listings.css';
-
+import houseImage from '../../assets/house.jpg';
 
 function Listings() {
   const [listings, setListings] = useState([]);
 
   useEffect(() => {
-    // Simulate fetching data
     const mockListings = [
       {
-        image: 'https://via.placeholder.com/150',
-        title: 'Beautiful Beach House',
+        image: houseImage,
+        title: 'Luxury House',
         type: 'Entire home',
         guests: 4,
-        bedrooms: 2,
-        bathrooms: 2,
-        price: 200,
-        rating: 4.5,
+        bedrooms: 5,
+        bathrooms: 7,
+        price: 1500,
+        rating: 5.0,
       },
-      // Add more listings
     ];
     setListings(mockListings);
   }, []);
